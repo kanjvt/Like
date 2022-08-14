@@ -1,1 +1,1 @@
-worker: python3 like.py
+worker: python main.py
