@@ -1,5 +1,2 @@
-import os
-kon = "LINK_IG"
-value = os.getenv(key)
-while True:
-    os.system(f"python3 like.py {value}"
+import os as like
+like.system("python3 like.py https://www.instagram.com/p/ChSqt4tBHIQ/")
