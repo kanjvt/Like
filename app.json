@@ -1,0 +1,24 @@
+{
+  "name": "Like IG : ndrew",
+  "description": "Like IG.",
+  "image": "heroku/python",
+  "repository": "https://github.com/yaonxiyu/Like",
+  "keywords": ["python", "instagram" ],
+  "addons": [ "heroku-postgresql" ],
+  "env": {
+    "LINK_IG": {
+      "description": "Your Instagram Post."
+    }
+  },
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
